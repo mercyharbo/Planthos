@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
+
+$defaultFont: 'Manrope',
+sans-serif;
+
+$defaultColor: grey;
+
+body {
+    font-family: $defaultFont;
+    font-size: 17px;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navbar__Link-toggle {
+    display: none;
+}
+
+.Navbar__Items {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+button {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: orangered;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container {
+    padding: 2% 5%;
+}
+
+a {
+    text-decoration: none;
+    color: $defaultColor;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+}
+
+.article_1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    padding: 5% 0;
+    font-family: $defaultFont;
+    font-weight: 500;
+
+    .content-image {
+        width: 50%;
+    }
+}
+
+
+.content h2 {
+    width: 80%;
+}
+
+p {
+    width: 90%;
+    line-height: 2;
+    color: $defaultColor;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    padding: 3% 0;
+}
+
+.author .user_details {
+    line-height: 0;
+    margin-top: -30px;
+}
+
+.author .user_image img {
+    width: 50px;
+}
+
+.article-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;  
+    
+    p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 2% 5%;
+        max-width: 100%;
+    }
+    
+    .Navbar__Items,
+    .Navbar {
+        flex-direction: column;
+    }
+
+    .Navbar__Items {
+        display: none;
+        align-items: flex-start;
+        margin: 5% 0;
+    }
+
+    .Navbar__ToggleShow {
+        display: flex;
+    }
+
+    .Navbar__Link-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+        top: 3%;
+    }
+
+    .article_1 {
+        flex-direction: column;
+
+        .content-image,
+        .content h2 {
+            width: 100%;
+        }
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .article-grid, 
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
