@@ -25,3 +25,9 @@ If you want more real-time communication, you can visit our community on [Slack]
 ### Fonts Used
 
 - Manrope: https://fonts.google.com/specimen/Manrope
+
+# Author 
+
+- Twitter: www.twitter.com/codewithmercy
+- Instagram: www.instagram.com/codewithmercy
+- LinkedIn: https://www.linkedin.com/in/codewithmercy/
