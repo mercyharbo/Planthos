@@ -2,27 +2,26 @@
 
 Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
 
-Free or paid, all templates are high quality and will make great portfolio pieces.
+## Screenshot
 
-### I've completed the challenge, now what?
+![screencapture-127-0-0-1-5500-Planthos-index-html-2021-08-14-03_52_16](https://user-images.githubusercontent.com/64808015/129452643-6eb28c16-6874-4005-bb16-f5064b5cc000.png)
 
-We recommend using one of these two websites to deploy your projects
+## Links
 
-- [GitHub Pages](https://github.com/mercyharbo/Unifeed/)
-- [Live-site](https://mercyharbo.github.io/Unifeed/)
+- Solution-page: https://github.com/mercyharbo/Unifeed/
+- Live-site: https://mercyharbo.github.io/Unifeed/
 
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+## Built with
 
-
-### Submit your solution to Codewell
-
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
+- HTML
+- CSS
+- JavaScript
+- Responsive Design
 
 ### Join our community on Slack
 
 If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
 
-
 ### Fonts Used
-https://fonts.google.com/specimen/Manrope
+
+- Manrope: https://fonts.google.com/specimen/Manrope
